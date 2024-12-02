@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Pedro Henrique">
+        
+        <title>Cadastro</title>
+
+        <style>
+        
+            fieldset {
+                    border: 2px solid #18acd4; 
+                    border-radius: 10px;
+                    padding: 20px;
+                    background-color: #c1e7f1;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+            }
+        
+            legend {
+                font-weight: bold;
+                font-size: 1.2em;
+                color:#03161b;
+            }
+        
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #eaedee;
+            }
+        
+            label {
+                display: block;
+                margin-bottom: 10px;
+            }
+        
+            input {
+                width: 100%;
+                padding: 5px;
+                margin-bottom: 8px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+        
+            .button {
+                width: 100%;
+                color: #003f51;
+                border-radius: 7px;
+                cursor: pointer;
+            }
+        
+            button:hover {
+                background-color: #03161b;
+            }
+        
+            .header-top {
+                    border-bottom: 5px solid #003f51; 
+                    padding-bottom: 5px; 
+                    margin-bottom: 5px; 
+                    right: 20px;
+                    margin-right: 20px;
+            }
+        </style>
+
+</head>
+
+    <body>
+        <div class="header-top">
+            <h1>RedeNurse+</h1>
+            <p>Seu portal educacional para Técnicos de Enfermagem</p>
+            <h1>Cadastro</h1>
+       
+        </div>
+      
+          
+
+        <fieldset><legend>Cadastro</legend><br>
+
+            <form name="Formaalunos" method="post" action="file:///C:/Users/Aluno_Tarde/Desktop/meus%20codigos%20em%20javascript-20240830T161139Z-001/meus%20codigos%20em%20javascript/cadastro%20de%20aluno.html">
+                <!--&nbsp; "Non-breaking space" - espaço sem quebra -->
+
+                <b><label for="aluno">Nome:*</label></b>
+                <input type="text" id="aluno" name="aluno" style="width: 310px;"> <br><br>
+
+                <b><label for="data">Data de nascimento:</label></b>
+                &nbsp;&nbsp;&nbsp;<input type="date" id="data" name="data"> <br><br>
+
+                <b>Sexo:</b> <input type="radio" name="sexo" value="masculino">Masculino
+                      <input type="radio" name="sexo" value="Feminino">Feminino 
+                      <input type="radio" name="sexo" value="Feminino">Outro <br><br>
+
+                <b><label for="email">E--mail:</label></b>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail"><br><br>
+                      
+
+                <b><label for="senha">Senha:</label></b>
+                <input type="tel" id="senha" name="senha" minlength="9" maxlength="11" placeholder="(00)00000-0000">
+
+
+                <b><label for="pais">País:</label></b>
+                <select name="pais" id="select">
+
+                    <option value="">Selecione o país:</option>
+                    <option value="ac">Argentina</option>
+                    <option value="al">Brasil</option>
+                    <option value="ap">China</option>
+                    <option value="am">Dinamarca</option>
+                    <option value="sp">Espanha</option>
+                    <option value="se">Guatemala</option>
+                    <option value="to">Haiti</option>
+                </select>
+                
+
+                <div class="button">  
+                
+                    &nbsp;&nbsp;&nbsp;<input type="reset" value="LIMPAR" name="Limpar">
+                    &nbsp;&nbsp;&nbsp;<input type="submit" value="ENVIAR" name="Enviar"><br><br>
+                    <button><a href="index.html">RETORNAR</a></button>
+                </div>
+              
+
+            </form>
+        </fieldset>
+
+    <footer>
+        <br>
+       
+    </footer>
+
+        
+
+
+
+    
+
+
+
+
+
+
+</body></html>
